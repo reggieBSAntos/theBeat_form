@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script type="module" src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="popup-form">
+      <div class="popup-form-container">
+        <div class="popup-form__left">
+          <img src="logoColored.svg" alt="" class="popup-form__logo" />
+          <h2 class="popup-form__title">record progress</h2>
+          <h3 class="popup-form__subtitle">Week 1 of 8 | 12 Feb 2024</h3>
+        </div>
+        <div class="popup-form__right">
+          <form class="popup-form__form">
+            <div><strong>Today, I</strong>...</div>
+
+            <div class="radio-container">
+              <label for="radio1" class="radio">
+                <input
+                  type="radio"
+                  name="radio"
+                  id="radio1"
+                  class="radio__input"
+                />
+                <div class="radio__radio"></div>
+                <span class="radio__text"> completed my steps </span>
+              </label>
+            </div>
+
+            <div class="radio-container">
+              <label for="radio2" class="radio">
+                <input
+                  type="radio"
+                  name="radio"
+                  id="radio2"
+                  class="radio__input"
+                />
+                <div class="radio__radio"></div>
+                <span class="radio__text"> joined a class or a workout </span>
+              </label>
+            </div>
+
+            <div class="radio-container">
+              <label for="radio3" class="radio">
+                <input
+                  type="radio"
+                  name="radio"
+                  id="radio3"
+                  class="radio__input"
+                />
+                <div class="radio__radio"></div>
+                <span class="radio__text">
+                  completed my steps and joined a class or a workout
+                </span>
+              </label>
+            </div>
+
+            <div class="radio-container">
+              <label for="radio4" class="radio">
+                <input
+                  type="radio"
+                  name="radio"
+                  id="radio4"
+                  class="radio__input"
+                />
+                <div class="radio__radio"></div>
+                <span class="radio__text">wasn't able to do either </span>
+              </label>
+            </div>
+
+            <div><strong>How do you feel about your day?</strong></div>
+
+            <div class="rating">
+              <label class="rating__label" for="rating1">
+                <!-- <span class="material-icons"> star_rate </span> -->
+              </label>
+              <input
+                class="rating__input"
+                type="radio"
+                name="rating"
+                id="rating1"
+              />
+
+              <label class="rating__label" for="rating2">
+                <!-- <span class="material-icons"> star_rate </span> -->
+              </label>
+              <input
+                class="rating__input"
+                type="radio"
+                name="rating"
+                id="rating2"
+              />
+
+              <label class="rating__label" for="rating3">
+                <!-- <span class="material-icons"> star_rate </span> -->
+              </label>
+              <input
+                class="rating__input"
+                type="radio"
+                name="rating"
+                id="rating3"
+              />
+
+              <label class="rating__label" for="rating4">
+                <!-- <span class="material-icons"> star_rate </span> -->
+              </label>
+              <input
+                class="rating__input"
+                type="radio"
+                name="rating"
+                id="rating4"
+              />
+
+              <label class="rating__label" for="rating5">
+                <!-- <span class="material-icons"> star_rate </span> -->
+              </label>
+              <input
+                class="rating__input"
+                type="radio"
+                name="rating"
+                id="rating5"
+              />
+            </div>
+
+            <div class="popup-form__buttons">
+              <button type="submit" class="popup-form__button button-cancel">
+                <span class="button-cancel__text">Close</span>
+              </button>
+              <button type="submit" class="popup-form__button button-confirm">
+                <span class="button-confirm__text">Submit</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
